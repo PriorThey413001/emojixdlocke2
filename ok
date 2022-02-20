@@ -2,7 +2,7 @@
 local CC = game:GetService'Workspace'.CurrentCamera
 local Plr
 local enabled = false
-local accomidationfactor = 0.12946129
+local accomidationfactor = 0.125
 local mouse = game.Players.LocalPlayer:GetMouse()
 local placemarker = Instance.new("Part", game.Workspace)
 local guimain = Instance.new("Folder", game.CoreGui)
@@ -115,7 +115,7 @@ game.Players.LocalPlayer.Chatted:Connect(
 				Duration = 5;
 			})
 			wait(0)
-			local accomidationfactor = 0.12946129
+			local accomidationfactor = 0.125
 		end
 	end
 )
